@@ -1,4 +1,4 @@
-{% set version = '16.1.0' %}
+{% set version = "16.1.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -13,7 +13,7 @@ source:
     - https://cran.r-project.org/src/contrib/LaplacesDemon_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/LaplacesDemon/LaplacesDemon_{{ version }}.tar.gz
 
-  sha256: 41d99261e8fc33c977b43ecf66ebed8ef1c84d9bd46b271609e9aadddc2ca8bb
+  sha256: 779ed1dbfed523a15701b4d5d891d4f1f11ab27518826a8a7725807d4c42bd77
 
 build:
   number: 0
