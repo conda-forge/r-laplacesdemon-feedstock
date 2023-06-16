@@ -1,11 +1,11 @@
-About r-laplacesdemon
-=====================
+About r-laplacesdemon-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-laplacesdemon-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/LaplacesDemonR/LaplacesDemon
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-laplacesdemon-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides a complete environment for Bayesian inference using a variety of different samplers (see ?LaplacesDemon for an overview). The README describes the history of the package development process.
 
