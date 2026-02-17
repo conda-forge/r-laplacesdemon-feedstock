@@ -1,4 +1,4 @@
-{% set version = "16.1.6" %}
+{% set version = "16.1.8" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/LaplacesDemon_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/LaplacesDemon/LaplacesDemon_{{ version }}.tar.gz
-  sha256: 57b53882fd7a195b38bbdbbf0b17745405eb3159b1b42f7f11ce80c78ab94eb7
+  sha256: 64cc565589d242dcd59cf720df184f08e3ab3d8920dc947bdfd7f1ec52e54714
 
 build:
   noarch: generic
-  number: 4
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
